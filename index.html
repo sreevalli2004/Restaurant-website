@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Restaurant</title>
+</head>
+<body>
+  <div class="container">
+    <div class="nav">
+      <ul>
+        <li onclick="openList('home')">Home</li>
+        <li onclick="openList('menu')">Menu</li>
+        <li onclick="openList('about')">About</li>
+        <li onclick="openList('contact')">Contact</li>
+      </ul>
+    </div>
+    <div class="header" id="home">
+      <div class="text">
+        <h1 class="dive">DIVE INTO OUR <br><span>APPETIZERS</span></h1>
+      </div>
+      <button>Saucy, Cheesy, Oh So Easy!</button>
+      <div class="opens">
+        <p>Opens From 10am To 10pm</p>
+      </div>
+    </div>
+      <div class=".menu" id="menu">
+        <div class="menu-title">
+          <p>THE MENU</p>
+        </div>
+        <div class="menu-table">
+          <div class="menu-tab">
+            <div class="menu-titles" onclick="openTab('pizza')">Pizzas</div>
+            <div class="menu-titles" onclick="openTab('salads')">Salads</div>
+            <div class="menu-titles" onclick="openTab('starters')">Starters</div>
+          </div>
+          <div class="menu-contents active-tab" id="pizza">
+            <div class="items">
+              <h1><b>Margherita</b><span class="money">$12.50</span></h1>
+              <p>Four cheeses (mozzarella, parmesan, pecorino, jarlsberg)</p>
+              <hr>
+            </div>
+            <div class="items">
+              <h1><b>Formaggio</b><span class="money">$15.50</span></h1>
+              <p>Four cheeses (mozzarella, parmesan, pecorino, jarlsberg)</p>
+              <hr>
+            </div>
+            <div class="items">
+              <h1><b>Chicken</b><span class="money">$13</span></h1>
+              <p>Fresh tomatoes, mozzarella, chicken, onions</p>
+              <hr>
+            </div>
+            <div class="items">
+              <h1><b>Pineapple'o'clock</b><span class="money">$14.42</span></h1>
+              <p>Fresh tomatoes, mozzarella, fresh pineapple, bacon, fresh basil</p>
+              <hr>
+            </div>
+            <div class="items">
+              <h1><b>Parma New</b><span class="money">$16.21</span></h1>
+              <p>Fresh tomatoes, mozzarella, parma, bacon, fresh arugula</p>
+              <hr>
+            </div>
+            <div class="items">
+              <h1><b>Meat Town Hot!</b><span class="money">$14.02</span></h1>
+              <p>Fresh tomatoes, mozzarella, hot pepporoni, hot sausage, beef, chicken</p>
+              <hr>
+            </div>
+          </div>
+        
+          <div class="menu-contents" id="salads">
+            <div class="items">
+              <h1><b>Lasagna</b><span class="money">$12.50</span></h1>
+              <p>Special sauce, mozzarella, parmesan, ground beef</p>
+              <hr>
+            </div>
+            <div class="items">
+              <h1><b>Ravioli</b><span class="money">$15.50</span></h1>
+              <p>Ravioli filled with cheese</p>
+              <hr>
+            </div>
+            <div class="items">
+              <h1><b>Spaghetti Classica</b><span class="money">$13</span></h1>
+              <p>Fresh tomatoes, onions, ground beef</p>
+              <hr>
+            </div>
+            <div class="items">
+              <h1><b>Seafood pasta</b><span class="money">$14.42</span></h1>
+              <p>Salmon, shrimp, lobster, garlic</p>
+              <hr>
+            </div>
+          </div>
+        
+          <div class="menu-contents" id="starters">
+            <div class="items">
+              <h1><b>Today's Soup</b><span class="money">$12.50</span></h1>
+              <p>Ask the waiter</p>
+              <hr>
+            </div>
+            <div class="items">
+              <h1><b>Bruschetta</b><span class="money">$15.50</span></h1>
+              <p>Bread with pesto, tomatoes, onion, garlic</p>
+              <hr>
+            </div>
+            <div class="items">
+              <h1><b>Garlic bread</b><span class="money">$13</span></h1>
+              <p>Grilled ciabatta, garlic butter, onions</p>
+              <hr>
+            </div>
+            <div class="items">
+              <h1><b>Tomozzarella</b><span class="money">$14.42</span></h1>
+              <p>Tomatoes and mozzarella</p>
+              <hr>
+            </div>
+          </div>
+      </div>
+      <div id="about">
+        <div class="about-title">ABOUT</div>
+        <p class="para">Welcome to the place where passion meets flavor in every slice. Nestled in the heart of Hyderabad, our restaurant is dedicated to bringing you the finest pizza experience. Using only the freshest ingredients, our talented chefs craft each pizza to perfection, blending traditional recipes with a modern twist. Whether you're craving a classic Margherita or an adventurous Pineapple'o'clock, our diverse menu promises something for everyone. Join us for a cozy dine-in experience or take your favorite pizzas to go. We believe that great pizza starts with the finest ingredients. Our dough is made fresh daily, hand-tossed to perfection, and baked in our state-of-the-art ovens. We source the best tomatoes, fresh herbs, and premium cheeses, ensuring each bite is bursting with flavor. Our talented chefs blend traditional recipes with a modern twist, creating a diverse menu that caters to all tastes.</p>
+        <p class="para">The Chef? Mr. Italiano himself</p>
+        <p class="para">We are proud of our interiors.</p>
+        <img src="image.png" alt="Interior">
+        <p class="open"><b>OPENING HOURS</b></p>
+        <ul>
+          <li>Mon & Tue CLOSED</li>
+          <li>Wednesday 10.00 - 24.00</li>
+          <li>Thursday 10:00 - 24:00</li>
+          <li>Friday 10:00 - 12:00</li>
+          <li>Saturday 10:00 - 23:00</li>
+          <li>Sunday Closed</li>
+        </ul>
+        <img class="mapp" src="map.jpg" alt="Map">
+      </div>
+      
+      <div id="contact">
+        <div class="contact-title">CONTACT</div>
+        <p class="para-2">Find us at some address at some place or call us at 05050515-122330</p>
+        <p class="para-2">FYI! We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</p>
+        <p class="reserve">Reserve a table, ask for today's special or just send us a message:</p>
+        <input type="text" class="name" placeholder="Enter your Name here" required><br>
+        <input type="number" class="people" placeholder="How many people" required name="number"><br>
+        <input type="date" class="date" placeholder="Select the date" required><br>
+        <input type="textarea" class="comments" placeholder="Enter your requirements here"><br>
+        <button type="submit" class="submit-button">Send Message</button>
+      </div>
+  </div>
+
+
+  <script>
+    
+    var menucontents = document.getElementsByClassName("menu-contents");
+
+      function openTab(tabname) {
+        for (let menucontent of menucontents) {
+          menucontent.classList.remove("active-tab");
+        }
+        
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+
+      function openList(sectionId) {
+        document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
+
+      }
+    
+  </script>
+</body>
+</html>
